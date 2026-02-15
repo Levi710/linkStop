@@ -1,0 +1,311 @@
+[
+  {
+    "rollNo": "25155231",
+    "name": "Abhinav Anand",
+    "rawLine": "Abhinav Anand 25155231---- 3:00-3:05PM--",
+    "times": [
+      "3:00-3:05PM"
+    ]
+  },
+  {
+    "rollNo": "2304138",
+    "name": "Abir Das",
+    "rawLine": "Abir Das 3:22-3:27PM------",
+    "times": [
+      "3:22-3:27PM"
+    ]
+  },
+  {
+    "rollNo": "25155232",
+    "name": "Aditya Das 25155232@kiit.ac.in",
+    "rawLine": "Aditya Das 25155232---4:15-4:20PM 4:07-4:12PM--",
+    "times": [
+      "4:15-4:20PM",
+      "4:07-4:12PM"
+    ]
+  },
+  {
+    "rollNo": "2305119",
+    "name": "Arghyadeep Deb",
+    "rawLine": "Arghyadeep Deb---3:30-3:35PM--",
+    "times": [
+      "3:30-3:35PM"
+    ]
+  },
+  {
+    "rollNo": "2330149",
+    "name": "Avik Ganguly",
+    "rawLine": "Avik Ganguly 4:00-4:05PM------",
+    "times": [
+      "4:00-4:05PM"
+    ]
+  },
+  {
+    "rollNo": "2305007",
+    "name": "Avradipta Guha",
+    "rawLine": "Avradipta Guha 2305007 3:37-3:42PM-4:05-4:10PM-3:15-3:20PM--",
+    "times": [
+      "3:37-3:42PM",
+      "4:05-4:10PM",
+      "3:15-3:20PM"
+    ]
+  },
+  {
+    "rollNo": "25156080",
+    "name": "Ayushman Sahu",
+    "rawLine": "Ayushman Sahu 25156080 4:22-4:27PM-- 3:45-3:50PM 3:30-3:35PM--",
+    "times": [
+      "4:22-4:27PM",
+      "3:45-3:50PM",
+      "3:30-3:35PM"
+    ]
+  },
+  {
+    "rollNo": "2307022",
+    "name": "Ayushmita Sanyal",
+    "rawLine": "Ayushmita Sanyal 2307022 4:15-4:20PM---3:22-3:27PM--",
+    "times": [
+      "4:15-4:20PM",
+      "3:22-3:27PM"
+    ]
+  },
+  {
+    "rollNo": "25156081",
+    "name": "Baishnobi Panigrahi",
+    "rawLine": "Baishnobi Panigrahi 25256081-- 4:15-4:20PM-3:37-3:42PM--",
+    "times": [
+      "4:15-4:20PM",
+      "3:37-3:42PM"
+    ]
+  },
+  {
+    "rollNo": "23052071",
+    "name": "Bhavya Shrivastava",
+    "rawLine": "Bhavya Shrivastava 3:52-3:57PM------",
+    "times": [
+      "3:52-3:57PM"
+    ]
+  },
+  {
+    "rollNo": "2260077",
+    "name": "Diyasha Ghosh",
+    "rawLine": "Diyasha Gosh 2260077-3:30 PM----",
+    "times": []
+  },
+  {
+    "rollNo": "25156095",
+    "name": "Khushi Bajoria",
+    "rawLine": "Khushi Bajoria 25156095-3:30 PM 3:45-3:50PM----",
+    "times": [
+      "3:45-3:50PM"
+    ]
+  },
+  {
+    "rollNo": "23052809",
+    "name": "Kshitij Jaiswal",
+    "rawLine": "Kshitij Jaiswal 23052809------ 3:15-3:20PM",
+    "times": [
+      "3:15-3:20PM"
+    ]
+  },
+  {
+    "rollNo": "2305223",
+    "name": "Mayank Gupta 2305223@kiit.ac.in",
+    "rawLine": "Mayank Gupta 2305223---- 4:00-4:05PM--",
+    "times": [
+      "4:00-4:05PM"
+    ]
+  },
+  {
+    "rollNo": "25155266",
+    "name": "Md Najmus Sakib Pervej",
+    "rawLine": "Md najmus 25155266-3:30 PM----",
+    "times": []
+  },
+  {
+    "rollNo": "25155266",
+    "name": "Md Najmus Sakib Pervej",
+    "rawLine": "Md Najmus Sakib Pervej 25155266------ 3:30-3:35PM",
+    "times": [
+      "3:30-3:35PM"
+    ]
+  },
+  {
+    "rollNo": "23052340",
+    "name": "PRITAM KUMAR BARIK",
+    "rawLine": "PRITAM KUMAR BARIK---3:52-3:57PM--",
+    "times": [
+      "3:52-3:57PM"
+    ]
+  },
+  {
+    "rollNo": "23052985",
+    "name": "Projit Dutt",
+    "rawLine": "Projit Dutt 4:07-4:12PM------",
+    "times": [
+      "4:07-4:12PM"
+    ]
+  },
+  {
+    "rollNo": "25155206",
+    "name": "Rishit Rudraa Nayak",
+    "rawLine": "Rishit Rudra Nayak 25155206------ 3:22-3:27PM",
+    "times": [
+      "3:22-3:27PM"
+    ]
+  },
+  {
+    "rollNo": "2306305",
+    "name": "Sahil Choudhary",
+    "rawLine": "Sahil Choudhary 2306305-3:30 PM----",
+    "times": []
+  },
+  {
+    "rollNo": "25157028",
+    "name": "Sanchita rani",
+    "rawLine": "Sanchita rani 3:00-3:05PM------",
+    "times": [
+      "3:00-3:05PM"
+    ]
+  },
+  {
+    "rollNo": "2360132",
+    "name": "Sanjh Dey Mondal",
+    "rawLine": "Sanjh Dey Mondal 4:30-4:35PM------",
+    "times": [
+      "4:30-4:35PM"
+    ]
+  },
+  {
+    "rollNo": "25157030",
+    "name": "Sharanya datta",
+    "rawLine": "Sharanya Datta 25157030-3:30 PM-- 3:45-3:50PM--",
+    "times": [
+      "3:45-3:50PM"
+    ]
+  },
+  {
+    "rollNo": "2305080",
+    "name": "Shreyansh Agrawal",
+    "rawLine": "Shreyansh Agrawal 3:30-3:35PM-3:55-4:00PM 3:22-3:27PM--",
+    "times": [
+      "3:30-3:35PM",
+      "3:55-4:00PM",
+      "3:22-3:27PM"
+    ]
+  },
+  {
+    "rollNo": "2305817",
+    "name": "Shubhankar Chandel",
+    "rawLine": "Shubhankar Chandel ---3:37-3:42PM-- 3:07-3:12PM",
+    "times": [
+      "3:37-3:42PM",
+      "3:07-3:12PM"
+    ]
+  },
+  {
+    "rollNo": "2529023",
+    "name": "Sorupdip Barik",
+    "rawLine": "Sorupdip Barik 3:15-3:20PM-- 3:00-3:05PM--",
+    "times": [
+      "3:15-3:20PM",
+      "3:00-3:05PM"
+    ]
+  },
+  {
+    "rollNo": "2529020",
+    "name": "Soyamajit Barik",
+    "rawLine": "Soumyajit Barik 2529020-3:30 PM 3:30-3:35PM----",
+    "times": [
+      "3:30-3:35PM"
+    ]
+  },
+  {
+    "rollNo": "23052926",
+    "name": "Soumyajit Tarafdar",
+    "rawLine": "Soumyajit Tarafdar 23052926-----9:07-9:12PM",
+    "times": [
+      "9:07-9:12PM"
+    ]
+  },
+  {
+    "rollNo": "25155338",
+    "name": "Subhrajit Dash",
+    "rawLine": "Subhrajit Dash 25155338------ 3:00-3:05PM",
+    "times": [
+      "3:00-3:05PM"
+    ]
+  },
+  {
+    "rollNo": "2260196",
+    "name": "Sushree Angan Subhalagna",
+    "rawLine": "Sushree Angan Subhalagna 2260196-- 3:37-3:42PM-- 9:00-9:05PM",
+    "times": [
+      "3:37-3:42PM",
+      "9:00-9:05PM"
+    ]
+  },
+  {
+    "rollNo": "2260196",
+    "name": "Sushree Angan Subhalagna",
+    "rawLine": "Sushree Angan Subhalagna 2260196---3:15-3:20PM 3:07-3:12PM--",
+    "times": [
+      "3:15-3:20PM",
+      "3:07-3:12PM"
+    ]
+  },
+  {
+    "rollNo": "23051476",
+    "name": "Swastika Khatua 23051476@kiit.ac.in",
+    "rawLine": "Swastika Khatua 23051476-----9:15-9:20PM",
+    "times": [
+      "9:15-9:20PM"
+    ]
+  },
+  {
+    "rollNo": "25157037",
+    "name": "Tamalika saha",
+    "rawLine": "Tamalika Saha 25157037---- 3:52-3:57PM--",
+    "times": [
+      "3:52-3:57PM"
+    ]
+  },
+  {
+    "rollNo": "251551044",
+    "name": "Srijeet sagar mohanty",
+    "rawLine": "Srijeet Sagar Mohanty 251551044",
+    "times": []
+  },
+  {
+    "rollNo": "2529023",
+    "name": "Sorupdip Barik",
+    "rawLine": "Sourupdip barik 2529023 8:00-8:05PM",
+    "times": [
+      "8:00-8:05PM"
+    ]
+  },
+  {
+    "rollNo": "25155380",
+    "name": "SABYA SACHI MAHAPATRA",
+    "rawLine": "sabya sachi Mahapatra 25155380 8:10-8:15PM",
+    "times": [
+      "8:10-8:15PM"
+    ]
+  },
+  {
+    "rollNo": "25155232",
+    "name": "Aditya Das 25155232@kiit.ac.in",
+    "rawLine": "Aditya das 25155232 8:15-8:20PM",
+    "times": [
+      "8:15-8:20PM"
+    ]
+  },
+  {
+    "rollNo": "25157028",
+    "name": "Sanchita rani",
+    "rawLine": "sanchita rani 25157028 8:20-8:25PM",
+    "times": [
+      "8:20-8:25PM"
+    ]
+  }
+]

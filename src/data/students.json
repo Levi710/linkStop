@@ -1,0 +1,932 @@
+[
+  {
+    "id": "1",
+    "name": "Suraj Gupta",
+    "rollNo": "2305173",
+    "email": "2305173@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Aayush Sinha",
+    "rollNo": "2306249",
+    "email": "2306249@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Photography",
+      "Literature"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Sayan Paul",
+    "rollNo": "2307068",
+    "email": "2307068@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Marketing",
+      "Art",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Abhinav Anand",
+    "rollNo": "25155231",
+    "email": "25155231@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Photography",
+      "Art"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Sanchita rani",
+    "rollNo": "25157028",
+    "email": "25157028@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Photography",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Soyamajit Barik",
+    "rollNo": "2529020",
+    "email": "bariksoyamjit@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Literature",
+      "Dance",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Divyanshu Kumar",
+    "rollNo": "2330441",
+    "email": "2330441@kiit.ac.in",
+    "domains": [
+      "Art",
+      "AI/ML",
+      "Data analyst"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Prince Nayak",
+    "rollNo": "2328232",
+    "email": "prince.omm1802@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Literature",
+      "Anchoring",
+      "Music",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Sahil Choudhary",
+    "rollNo": "2306305",
+    "email": "2306305@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Marketing",
+      "Dance"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Sruti Chingri",
+    "rollNo": "25155098",
+    "email": "srutichingri2006@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Photography",
+      "Art",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Abhilasha Kakoty",
+    "rollNo": "2306003",
+    "email": "2306003@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Pranaw prakash",
+    "rollNo": "25155377",
+    "email": "25155377@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Photography",
+      "Videography",
+      "Video & Photo Editing"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Shreyan Das",
+    "rollNo": "2329151",
+    "email": "2329151@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "TIYASHA DEBNATH",
+    "rollNo": "25155461",
+    "email": "tiyashadebnath2006@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Literature",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "SABYA SACHI MAHAPATRA",
+    "rollNo": "25155380",
+    "email": "Not Provided",
+    "domains": [
+      "25155380 25155380 Event Planning",
+      "Photography"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Ayush Kishor",
+    "rollNo": "23053515",
+    "email": "23053515@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Marketing",
+      "Anchoring",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Sorupdip Barik",
+    "rollNo": "2529023",
+    "email": "Sorupdipkiit@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Marketing",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Vaibhav Bibhu",
+    "rollNo": "25155343",
+    "email": "25155343@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Marketing",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Kshitij Rastogi",
+    "rollNo": "25155315",
+    "email": "kshitijrastogi430@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Marketing",
+      "Photography",
+      "Video & Photo Editing",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Dhiman Ray",
+    "rollNo": "2306023",
+    "email": "dhimanray2004@gmail.com",
+    "domains": [
+      "Music"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Priyam Pandey",
+    "rollNo": "2328108",
+    "email": "2328108@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Music"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Aritra Ghosh",
+    "rollNo": "25155295",
+    "email": "garitra153@gmail.com",
+    "domains": [
+      "[1] Videography",
+      "Literature",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Srijeet sagar mohanty",
+    "rollNo": "251551044",
+    "email": "251551044@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Vishalakshya Tiwari",
+    "rollNo": "2306080",
+    "email": "2306080@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Marketing",
+      "Anchoring",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Abir Das",
+    "rollNo": "2304138",
+    "email": "2304138@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Marketing",
+      "Art",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Debapriyo Ghosh",
+    "rollNo": "25155304",
+    "email": "25155304@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Sushree Angan Subhalagna",
+    "rollNo": "2260196",
+    "email": "sushreeee12345@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Marketing",
+      "Art",
+      "Literature",
+      "Anchoring",
+      "Music",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Shreyansh Agrawal",
+    "rollNo": "2305080",
+    "email": "2305080@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Marketing",
+      "Literature",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Arghyadeep Deb",
+    "rollNo": "2305119",
+    "email": "2305119@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Marketing",
+      "Literature",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Avradipta Guha",
+    "rollNo": "2305007",
+    "email": "2305007@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Art",
+      "Literature",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Siddhi Rudrakshi",
+    "rollNo": "2305974",
+    "email": "2305974@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Dance",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Aashita Dash",
+    "rollNo": "2305266",
+    "email": "dashaashita@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Anchoring",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Ayush Mishra",
+    "rollNo": "23051739",
+    "email": "23051739@kiit.ac.in",
+    "domains": [
+      "Photography",
+      "Videography",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Mousumi Pradhan",
+    "rollNo": "25156144",
+    "email": "25156144@kiit.ac.in",
+    "domains": [
+      "Event Planning"
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Bhavya Shrivastava",
+    "rollNo": "23052071",
+    "email": "bhavya9755@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Anchoring",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Diyasha Ghosh",
+    "rollNo": "2260077",
+    "email": "2260077@biotech.kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Dance",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Shankhadeep Dey",
+    "rollNo": "2329061",
+    "email": "2329061@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Art",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Avik Ganguly",
+    "rollNo": "2330149",
+    "email": "2330149@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Photography",
+      "Art",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "39",
+    "name": "Projit Dutt",
+    "rollNo": "23052985",
+    "email": "23052985@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics"
+    ]
+  },
+  {
+    "id": "40",
+    "name": "Prince Nayak",
+    "rollNo": "2328232",
+    "email": "2328232@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Marketing",
+      "Art",
+      "Literature",
+      "Anchoring",
+      "Music",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Adrija Saha",
+    "rollNo": "25155110",
+    "email": "25155110@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Shubhankar Chandel",
+    "rollNo": "2305817",
+    "email": "2305817@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Marketing",
+      "Video & Photo Editing",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Biplob Gautam",
+    "rollNo": "2305044",
+    "email": "2305044@kiit.ac.in",
+    "domains": [
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Subhrajit Dash",
+    "rollNo": "25155338",
+    "email": "25155338@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Photography",
+      "Video & Photo Editing",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "45",
+    "name": "Varun Varma",
+    "rollNo": "24162019",
+    "email": "24162019@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Literature"
+    ]
+  },
+  {
+    "id": "46",
+    "name": "Kshitij Jaiswal",
+    "rollNo": "23052809",
+    "email": "23052809@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Video & Photo Editing"
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Ayushman Mahapatra",
+    "rollNo": "2330020",
+    "email": "2330020@kiit.ac.in",
+    "domains": [
+      "Logistics",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Tejshree Tarun Rout",
+    "rollNo": "2304130",
+    "email": "2304130@kiit.ac.in",
+    "domains": [
+      "Art"
+    ]
+  },
+  {
+    "id": "49",
+    "name": "Kaushal Mishra",
+    "rollNo": "2330031",
+    "email": "2330031@gmail.com",
+    "domains": [
+      "Literature"
+    ]
+  },
+  {
+    "id": "50",
+    "name": "Aditya Krishna Mansingh",
+    "rollNo": "24057098",
+    "email": "24057098@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "51",
+    "name": "Khushi Bajoria",
+    "rollNo": "25156095",
+    "email": "25156095@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Literature",
+      "Dance"
+    ]
+  },
+  {
+    "id": "52",
+    "name": "Sakshi Sinha",
+    "rollNo": "2529015",
+    "email": "2529015@kiit.ac.in",
+    "domains": [
+      "Literature",
+      "Anchoring"
+    ]
+  },
+  {
+    "id": "53",
+    "name": "Vibhash Raj",
+    "rollNo": "25155285",
+    "email": "25155285@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "54",
+    "name": "Diwakar kumar",
+    "rollNo": "25155255",
+    "email": "25155255@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "55",
+    "name": "Ayushmita Sanyal",
+    "rollNo": "2307022",
+    "email": "2307022@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Photography",
+      "Art",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "56",
+    "name": "Ayushman Sahu",
+    "rollNo": "25156080",
+    "email": "25156080@kiit.ac.in",
+    "domains": [
+      "Logistics",
+      "Marketing",
+      "Art",
+      "Music"
+    ]
+  },
+  {
+    "id": "57",
+    "name": "Umang Bhartiya",
+    "rollNo": "2329078",
+    "email": "2329078@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "58",
+    "name": "Soumyajit Tarafdar",
+    "rollNo": "23052926",
+    "email": "23052926@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Music",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "59",
+    "name": "Sohang Debnath",
+    "rollNo": "2305576",
+    "email": "2305576@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Music"
+    ]
+  },
+  {
+    "id": "60",
+    "name": "Rishit Rudraa Nayak",
+    "rollNo": "25155206",
+    "email": "25155206@kiit.ac.in",
+    "domains": [
+      "Videography",
+      "Video & Photo Editing",
+      "Anchoring",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "61",
+    "name": "Soham Dutta",
+    "rollNo": "22052064",
+    "email": "sohamdutta.haldia@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Baishnobi Panigrahi",
+    "rollNo": "25156081",
+    "email": "25256081@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Art",
+      "Literature"
+    ]
+  },
+  {
+    "id": "63",
+    "name": "Md Najmus Sakib Pervej",
+    "rollNo": "25155266",
+    "email": "25155266@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Video & Photo Editing",
+      "Dance"
+    ]
+  },
+  {
+    "id": "64",
+    "name": "Krishaansh Saxena",
+    "rollNo": "25155263",
+    "email": "25155263@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Dance"
+    ]
+  },
+  {
+    "id": "65",
+    "name": "Omkar Patra",
+    "rollNo": "24057050",
+    "email": "24057050@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Photography",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "66",
+    "name": "Sanjh Dey Mondal",
+    "rollNo": "2360132",
+    "email": "2360132@biotech.kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Logistics"
+    ]
+  },
+  {
+    "id": "67",
+    "name": "Angana Karmakar",
+    "rollNo": "2360028",
+    "email": "2360028@biotech.kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Art"
+    ]
+  },
+  {
+    "id": "68",
+    "name": "PRITAM KUMAR BARIK",
+    "rollNo": "23052340",
+    "email": "23052340@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Marketing",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "69",
+    "name": "Sharanya datta",
+    "rollNo": "25157030",
+    "email": "25157030@kiit.ac.in",
+    "domains": [
+      "Art",
+      "Dance",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "70",
+    "name": "Debashish Behera",
+    "rollNo": "24057034",
+    "email": "24057034@gmail.com",
+    "domains": [
+      "Event Planning",
+      "Video & Photo Editing",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "71",
+    "name": "Tamalika saha",
+    "rollNo": "25157037",
+    "email": "25157037@kiit.ac.in",
+    "domains": [
+      "Art",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Tirthasree Biswas",
+    "rollNo": "24057089",
+    "email": "24057089@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "73",
+    "name": "Sohani Biswas",
+    "rollNo": "2328205",
+    "email": "2328205@kiit.ac.in",
+    "domains": [
+      "Event Planning",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "74",
+    "name": "Prasoon Raj Krishna 2328182@gmail.com",
+    "rollNo": "2328182",
+    "email": "Not Provided",
+    "domains": [
+      "Event Planning",
+      "Marketing"
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Mayank Gupta 2305223@kiit.ac.in",
+    "rollNo": "2305223",
+    "email": "Not Provided",
+    "domains": [
+      "Event Planning",
+      "Art"
+    ]
+  },
+  {
+    "id": "77",
+    "name": "Sourav Jena 23051388@kiit.ac.in",
+    "rollNo": "23051388",
+    "email": "Not Provided",
+    "domains": [
+      "Marketing",
+      "Photography"
+    ]
+  },
+  {
+    "id": "78",
+    "name": "Kumar Shubham 23051758@kiit.ac.in",
+    "rollNo": "23051758",
+    "email": "Not Provided",
+    "domains": [
+      "Event Planning",
+      "Video & Photo Editing"
+    ]
+  },
+  {
+    "id": "79",
+    "name": "Avnij Srivastava 2305042@kiit.ac.in",
+    "rollNo": "2305042",
+    "email": "Not Provided",
+    "domains": [
+      "Logistics",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "80",
+    "name": "Swastika Khatua 23051476@kiit.ac.in",
+    "rollNo": "23051476",
+    "email": "Not Provided",
+    "domains": [
+      "Logistics",
+      "Art",
+      "Literature",
+      "Anchoring",
+      "Music"
+    ]
+  },
+  {
+    "id": "81",
+    "name": "simran sharma 23053248@kiit.ac.in",
+    "rollNo": "23053248",
+    "email": "Not Provided",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "82",
+    "name": "Priyanshu Bisht 23051523@kiit.ac.in",
+    "rollNo": "23051523",
+    "email": "Not Provided",
+    "domains": [
+      "Logistics",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "83",
+    "name": "Prafful Sinha 23051361@kiit.ac.in",
+    "rollNo": "23051361",
+    "email": "Not Provided",
+    "domains": [
+      "Event Planning",
+      "Logistics",
+      "Marketing",
+      "Volunteer"
+    ]
+  },
+  {
+    "id": "84",
+    "name": "Aditya Das 25155232@kiit.ac.in",
+    "rollNo": "25155232",
+    "email": "Not Provided",
+    "domains": [
+      "Event Planning",
+      "Marketing",
+      "Art"
+    ]
+  },
+  {
+    "id": "85",
+    "name": "Kaustubh Rai 2330093@kiit.ac.in",
+    "rollNo": "2330093",
+    "email": "Not Provided",
+    "domains": [
+      "Logistics",
+      "Volunteer"
+    ]
+  }
+]
