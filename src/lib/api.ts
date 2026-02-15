@@ -131,7 +131,7 @@ export const saveDomains = async (domains: DomainConfig[]) => {
 };
 
 // --- Single Student Helper ---
-export const getStudentByRollNo = async (rollNo: string) => {
+export const getStudentByRollNo = async (rollNo: string): Promise<(Student & { schedule?: ScheduleItem }) | null> => {
     try {
         const studentRes = await query('SELECT * FROM students WHERE roll_no = $1', [rollNo]);
         const scheduleRes = await query('SELECT * FROM schedules WHERE roll_no = $1', [rollNo]);

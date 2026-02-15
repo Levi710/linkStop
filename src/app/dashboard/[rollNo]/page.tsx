@@ -45,7 +45,7 @@ export default async function DashboardPage({ params }: { params: Promise<{ roll
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {domains.map((domain, index) => {
+                    {domains.map((domain: string, index: number) => {
                         let timeSlot = undefined;
                         if (index < scheduleTimes.length) {
                             timeSlot = scheduleTimes[index];
