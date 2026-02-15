@@ -17,8 +17,6 @@ const AVAILABLE_DOMAINS = [
     "Art",
     "Literature",
     "Volunteer",
-    "Photography",
-    "Videography",
     "Video & Photo Editing",
     "Anchoring",
     "Dance",
