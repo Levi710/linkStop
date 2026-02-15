@@ -34,13 +34,34 @@ export default function AdminDashboardPage() {
     const [searchTerm, setSearchTerm] = useState("");
     const [editingStudent, setEditingStudent] = useState<Partial<Student> | null>(null);
 
+    // Auth State
+    const [role, setRole] = useState<string | null>(null);
+    const [adminDomain, setAdminDomain] = useState<string | null>(null);
+
+    // Domain Admin State
+    const [meetLink, setMeetLink] = useState("");
+    const [domainUpdateStatus, setDomainUpdateStatus] = useState("");
+
     useEffect(() => {
         const isAuth = sessionStorage.getItem("adminAuth");
+        const storedRole = sessionStorage.getItem("adminRole");
+        const storedDomain = sessionStorage.getItem("adminDomain");
+
         if (!isAuth) {
             router.push("/admin/login");
             return;
         }
-        fetchStudents();
+
+        setRole(storedRole);
+        setAdminDomain(storedDomain);
+
+        if (storedRole === "super_admin") {
+            fetchStudents();
+        } else if (storedRole === "domain_admin" && storedDomain) {
+            fetchDomainDetails(storedDomain);
+        } else {
+            setLoading(false); // Should not happen, but stop loading
+        }
     }, [router]);
 
     const fetchStudents = async () => {
@@ -55,6 +76,42 @@ export default function AdminDashboardPage() {
         }
     };
 
+    const fetchDomainDetails = async (domainName: string) => {
+        try {
+            const res = await fetch("/api/domains");
+            const data = await res.json();
+            const myDomain = data.find((d: any) => d.name === domainName);
+            if (myDomain) {
+                setMeetLink(myDomain.meetLink);
+            }
+        } catch (e) {
+            console.error(e);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleDomainUpdate = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setDomainUpdateStatus("Saving...");
+        try {
+            const res = await fetch("/api/domains", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ name: adminDomain, meetLink })
+            });
+            if (res.ok) {
+                setDomainUpdateStatus("Link updated successfully!");
+                setTimeout(() => setDomainUpdateStatus(""), 3000);
+            } else {
+                setDomainUpdateStatus("Failed to update.");
+            }
+        } catch (e) {
+            setDomainUpdateStatus("Error updating link.");
+        }
+    };
+
+    // ... (Keep existing handlers: filteredStudents, handleSave, handleDelete) ...
     const filteredStudents = students.filter(s =>
         s.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         s.rollNo.includes(searchTerm)
@@ -63,10 +120,6 @@ export default function AdminDashboardPage() {
     const handleSave = async (e: React.FormEvent) => {
         e.preventDefault();
         if (!editingStudent) return;
-
-        // Parse domains from comma separated string if strictly string input
-        // But here we might bind directly.
-        // For simplicity, let's assume domains is managed as a string in the form.
 
         try {
             const res = await fetch("/api/students", {
@@ -94,16 +147,61 @@ export default function AdminDashboardPage() {
         }
     };
 
+    const handleLogout = () => {
+        sessionStorage.clear();
+        router.push("/");
+    };
+
     if (loading) return <div className="flex h-screen items-center justify-center text-white"><Loader2 className="animate-spin" /></div>;
 
+    // RENDER: Domain Admin View
+    if (role === "domain_admin") {
+        return (
+            <div className="min-h-screen p-6 bg-slate-950 text-white flex items-center justify-center">
+                <GlassCard className="w-full max-w-lg p-8 space-y-6">
+                    <div className="flex justify-between items-center border-b border-white/10 pb-4">
+                        <div>
+                            <h1 className="text-2xl font-bold">{adminDomain} Admin</h1>
+                            <p className="text-sm text-slate-400">Manage your domain settings</p>
+                        </div>
+                        <Button variant="danger" onClick={handleLogout}>Logout</Button>
+                    </div>
+
+                    <form onSubmit={handleDomainUpdate} className="space-y-4">
+                        <div className="space-y-2">
+                            <label className="text-sm text-slate-400">Google Meet Link</label>
+                            <Input
+                                value={meetLink}
+                                onChange={(e) => setMeetLink(e.target.value)}
+                                placeholder="https://meet.google.com/..."
+                            />
+                        </div>
+                        <Button type="submit" className="w-full">
+                            <Save className="w-4 h-4 mr-2" /> Update Link
+                        </Button>
+                        {domainUpdateStatus && (
+                            <p className={`text-center text-sm ${domainUpdateStatus.includes("Success") ? "text-green-400" : "text-blue-400"}`}>
+                                {domainUpdateStatus}
+                            </p>
+                        )}
+                    </form>
+                </GlassCard>
+            </div>
+        );
+    }
+
+    // RENDER: Super Admin View (Existing Dashboard)
     return (
         <div className="min-h-screen p-6 bg-slate-950 text-white">
             <div className="max-w-6xl mx-auto space-y-6">
                 <div className="flex justify-between items-center">
-                    <h1 className="text-3xl font-bold">Admin Dashboard</h1>
-                    <Button onClick={() => setEditingStudent({ name: "", rollNo: "", email: "", domains: [] })}>
-                        <Plus className="w-4 h-4 mr-2" /> Add Student
-                    </Button>
+                    <h1 className="text-3xl font-bold">Super Admin Dashboard</h1>
+                    <div className="flex gap-2">
+                        <Button onClick={() => setEditingStudent({ name: "", rollNo: "", email: "", domains: [] })}>
+                            <Plus className="w-4 h-4 mr-2" /> Add Student
+                        </Button>
+                        <Button variant="danger" onClick={handleLogout}>Logout</Button>
+                    </div>
                 </div>
 
                 <GlassCard className="p-4 flex gap-4">

@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Event Planning",
+        "password": "event_admin_01",
+        "meetLink": "https://meet.google.com/placeholder-event"
+    },
+    {
+        "name": "Logistics",
+        "password": "logistics_hero",
+        "meetLink": "https://meet.google.com/placeholder-logistics"
+    },
+    {
+        "name": "Marketing",
+        "password": "market_growth",
+        "meetLink": "https://meet.google.com/placeholder-marketing"
+    },
+    {
+        "name": "Art",
+        "password": "art_creative_22",
+        "meetLink": "https://meet.google.com/placeholder-art"
+    },
+    {
+        "name": "Literature",
+        "password": "lit_society_44",
+        "meetLink": "https://meet.google.com/placeholder-lit"
+    },
+    {
+        "name": "Volunteer",
+        "password": "vol_team_99",
+        "meetLink": "https://meet.google.com/placeholder-vol"
+    },
+    {
+        "name": "Photography",
+        "password": "photo_lens_55",
+        "meetLink": "https://meet.google.com/placeholder-photo"
+    },
+    {
+        "name": "Videography",
+        "password": "video_rec_88",
+        "meetLink": "https://meet.google.com/placeholder-video"
+    },
+    {
+        "name": "Video & Photo Editing",
+        "password": "edit_studio_77",
+        "meetLink": "https://meet.google.com/placeholder-edit"
+    },
+    {
+        "name": "Anchoring",
+        "password": "anchor_mic_33",
+        "meetLink": "https://meet.google.com/placeholder-anchor"
+    },
+    {
+        "name": "Dance",
+        "password": "dance_move_66",
+        "meetLink": "https://meet.google.com/placeholder-dance"
+    },
+    {
+        "name": "Music",
+        "password": "music_note_11",
+        "meetLink": "https://meet.google.com/placeholder-music"
+    },
+    {
+        "name": "AI/ML",
+        "password": "ai_tech_00",
+        "meetLink": "https://meet.google.com/placeholder-ai"
+    },
+    {
+        "name": "Data analyst",
+        "password": "data_insight_12",
+        "meetLink": "https://meet.google.com/placeholder-data"
+    }
+]

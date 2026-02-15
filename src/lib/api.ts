@@ -90,3 +90,38 @@ export const saveSchedule = async (schedule: ScheduleItem[]) => {
         console.error("Failed to save schedule (Expected on Vercel):", error);
     }
 };
+
+// Domain Admin Features
+import domainsData from '@/data/domains.json';
+const domainsFile = path.join(dataDir, 'domains.json');
+
+export type DomainConfig = {
+    name: string;
+    password?: string; // Optional because we might not want to expose it to client always, though here we trust API.
+    meetLink: string;
+};
+
+export const getDomains = async (): Promise<DomainConfig[]> => {
+    if (process.env.NODE_ENV === 'development') {
+        try {
+            if (fs.existsSync(domainsFile)) {
+                const data = fs.readFileSync(domainsFile, 'utf8');
+                return JSON.parse(data);
+            }
+        } catch (error) {
+            console.warn("Failed to read domains from FS, using bundled:", error);
+        }
+    }
+    return domainsData as DomainConfig[];
+};
+
+export const saveDomains = async (domains: DomainConfig[]) => {
+    try {
+        if (!fs.existsSync(dataDir)) {
+            fs.mkdirSync(dataDir, { recursive: true });
+        }
+        fs.writeFileSync(domainsFile, JSON.stringify(domains, null, 2));
+    } catch (error) {
+        console.error("Failed to save domains:", error);
+    }
+};

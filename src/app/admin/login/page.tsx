@@ -13,14 +13,34 @@ export default function AdminLoginPage() {
     const [error, setError] = useState("");
     const router = useRouter();
 
-    const handleLogin = (e: React.FormEvent) => {
+    const handleLogin = async (e: React.FormEvent) => {
         e.preventDefault();
-        if (password === "admin123") {
-            // Store auth state (simple method)
-            sessionStorage.setItem("adminAuth", "true");
-            router.push("/admin/dashboard");
-        } else {
-            setError("Invalid password");
+        setError("");
+
+        try {
+            const res = await fetch("/api/admin/login", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ password })
+            });
+            const data = await res.json();
+
+            if (data.success) {
+                // Store auth details
+                sessionStorage.setItem("adminAuth", "true");
+                sessionStorage.setItem("adminRole", data.role);
+                if (data.domainName) {
+                    sessionStorage.setItem("adminDomain", data.domainName);
+                } else {
+                    sessionStorage.removeItem("adminDomain");
+                }
+
+                router.push("/admin/dashboard");
+            } else {
+                setError(data.error || "Invalid password");
+            }
+        } catch (err) {
+            setError("Login failed. Try again.");
         }
     };
 
