@@ -7,8 +7,9 @@ import Link from "next/link";
 import { ArrowLeft, User, Mail, Hash } from "lucide-react";
 import { notFound } from "next/navigation";
 
-export default async function DashboardPage({ params }: { params: { rollNo: string } }) {
-    const student = await getStudentByRollNo(params.rollNo);
+export default async function DashboardPage({ params }: { params: Promise<{ rollNo: string }> }) {
+    const { rollNo } = await params;
+    const student = await getStudentByRollNo(rollNo);
 
     if (!student) {
         notFound();
