@@ -7,6 +7,8 @@ import Link from "next/link";
 import { ArrowLeft, User, Mail, Hash } from "lucide-react";
 import { notFound } from "next/navigation";
 
+export const dynamic = "force-dynamic";
+
 export default async function DashboardPage({ params }: { params: Promise<{ rollNo: string }> }) {
     const { rollNo } = await params;
     const student = await getStudentByRollNo(rollNo);

@@ -24,31 +24,25 @@ export type ScheduleItem = {
 };
 
 export const getStudents = async (): Promise<Student[]> => {
-    // In production (Vercel), we rely on the bundled import to avoid 404s from missing loose files.
-    // In development, we can try to read from FS to see live updates from the Admin panel.
-    if (process.env.NODE_ENV === 'development') {
-        try {
-            if (fs.existsSync(studentsFile)) {
-                const data = fs.readFileSync(studentsFile, 'utf8');
-                return JSON.parse(data);
-            }
-        } catch (error) {
-            console.warn("Failed to read from FS, falling back to bundled data:", error);
+    try {
+        if (fs.existsSync(studentsFile)) {
+            const data = fs.readFileSync(studentsFile, 'utf8');
+            return JSON.parse(data);
         }
+    } catch (error) {
+        console.warn("Failed to read from FS, falling back to bundled data:", error);
     }
     return studentsData as Student[];
 };
 
 export const getSchedule = async (): Promise<ScheduleItem[]> => {
-    if (process.env.NODE_ENV === 'development') {
-        try {
-            if (fs.existsSync(scheduleFile)) {
-                const data = fs.readFileSync(scheduleFile, 'utf8');
-                return JSON.parse(data);
-            }
-        } catch (error) {
-            console.warn("Failed to read from FS, falling back to bundled data:", error);
+    try {
+        if (fs.existsSync(scheduleFile)) {
+            const data = fs.readFileSync(scheduleFile, 'utf8');
+            return JSON.parse(data);
         }
+    } catch (error) {
+        console.warn("Failed to read from FS, falling back to bundled data:", error);
     }
     return scheduleData as ScheduleItem[];
 }
@@ -102,15 +96,13 @@ export type DomainConfig = {
 };
 
 export const getDomains = async (): Promise<DomainConfig[]> => {
-    if (process.env.NODE_ENV === 'development') {
-        try {
-            if (fs.existsSync(domainsFile)) {
-                const data = fs.readFileSync(domainsFile, 'utf8');
-                return JSON.parse(data);
-            }
-        } catch (error) {
-            console.warn("Failed to read domains from FS, using bundled:", error);
+    try {
+        if (fs.existsSync(domainsFile)) {
+            const data = fs.readFileSync(domainsFile, 'utf8');
+            return JSON.parse(data);
         }
+    } catch (error) {
+        console.warn("Failed to read domains from FS, using bundled:", error);
     }
     return domainsData as DomainConfig[];
 };
