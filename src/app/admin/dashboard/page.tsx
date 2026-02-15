@@ -8,6 +8,24 @@ import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { Student } from "@/lib/api";
 import { Loader2, Plus, Edit, Trash, Search, Save, X } from "lucide-react";
+import { MultiSelect } from "@/components/ui/MultiSelect";
+
+const AVAILABLE_DOMAINS = [
+    "Event Planning",
+    "Logistics",
+    "Marketing",
+    "Art",
+    "Literature",
+    "Volunteer",
+    "Photography",
+    "Videography",
+    "Video & Photo Editing",
+    "Anchoring",
+    "Dance",
+    "Music",
+    "AI/ML",
+    "Data analyst"
+];
 
 export default function AdminDashboardPage() {
     const router = useRouter();
@@ -150,10 +168,11 @@ export default function AdminDashboardPage() {
                                 </div>
                             </div>
                             <div className="space-y-2">
-                                <label className="text-sm text-slate-400">Domains (comma separated)</label>
-                                <Input
-                                    value={editingStudent.domains?.join(", ")}
-                                    onChange={e => setEditingStudent({ ...editingStudent, domains: e.target.value.split(',').map(s => s.trim()) })}
+                                <label className="text-sm text-slate-400">Domains</label>
+                                <MultiSelect
+                                    options={AVAILABLE_DOMAINS}
+                                    selected={editingStudent.domains || []}
+                                    onChange={(selected) => setEditingStudent({ ...editingStudent, domains: selected })}
                                 />
                             </div>
                             <Button type="submit" className="w-full mt-4">
