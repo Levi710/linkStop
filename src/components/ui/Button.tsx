@@ -20,6 +20,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         };
 
         // Cast as any to bypass strict HTMLMotionProps vs ButtonHTMLAttributes mismatch
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const MButton = motion.button as any;
 
         return (

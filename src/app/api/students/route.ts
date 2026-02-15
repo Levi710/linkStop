@@ -15,7 +15,7 @@ export async function POST(request: Request) {
         const { id, ...data } = body;
         const newStudentData = data as Partial<Student>;
 
-        let updatedStudents = [...students];
+        const updatedStudents = [...students];
         const existingIndex = students.findIndex((s) => s.id === id);
 
         if (existingIndex > -1) {

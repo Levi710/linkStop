@@ -1,0 +1,24 @@
+
+> student-domain-platform@0.1.0 lint
+> eslint
+
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\app\admin\dashboard\page.tsx
+  64:18  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+  74:18  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\app\api\students\route.ts
+  36:14  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+  54:14  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\app\dashboard\[rollNo]\page.tsx
+  7:21  warning  'User' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\components\ui\Button.tsx
+  6:18  warning  'HTMLMotionProps' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\lib\api.ts
+  25:7  warning  'ensureData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 7 problems (0 errors, 7 warnings)
+

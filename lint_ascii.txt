@@ -1,0 +1,30 @@
+
+> student-domain-platform@0.1.0 lint
+> eslint
+
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\app\admin\dashboard\page.tsx
+  64:18  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+  74:18  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\app\api\students\route.ts
+  18:13  error    'updatedStudents' is never reassigned. Use 'const' instead  prefer-const
+  36:14  warning  'error' is defined but never used                           @typescript-eslint/no-unused-vars
+  54:14  warning  'error' is defined but never used                           @typescript-eslint/no-unused-vars
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\app\dashboard\[rollNo]\page.tsx
+  7:21  warning  'User' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\components\ui\Button.tsx
+   6:18  warning  'HTMLMotionProps' is defined but never used  @typescript-eslint/no-unused-vars
+  23:42  error    Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\components\ui\Input.tsx
+  7:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+C:\Users\ayush\OneDrive\Desktop\interlink\student-domain-platform\src\lib\api.ts
+  25:7  warning  'ensureData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 10 problems (3 errors, 7 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
