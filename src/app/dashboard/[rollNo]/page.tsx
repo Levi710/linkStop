@@ -1,5 +1,5 @@
 
-import { getStudentByRollNo } from "@/lib/api";
+import { getStudentByRollNo, getDomains } from "@/lib/api";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { DomainCard } from "@/components/DomainCard";
 import { Button } from "@/components/ui/Button";
@@ -10,27 +10,13 @@ import { notFound } from "next/navigation";
 export default async function DashboardPage({ params }: { params: Promise<{ rollNo: string }> }) {
     const { rollNo } = await params;
     const student = await getStudentByRollNo(rollNo);
+    const allDomains = await getDomains();
 
     if (!student) {
         notFound();
     }
 
     // Extract times if available
-    // student.schedule.rawLine might contain times.
-    // student.schedule.times is an array of times found in the line.
-    // But we need to map them to domains. 
-    // The prompt implies a 1:1 mapping was desired but the data is raw.
-    // We'll use a best-effort approach: 
-    // If we have times, we assign them sequentially to the domains that typically have times? 
-    // OR just show all assigned domains, and if we have times, list them in the "Schedule" section?
-    // The user said: "assign mapping for roll no.s as each user write their roll no. and then link for meet and aloted time will be shown"
-
-    // Let's look at the domains the student has.
-    // And look at the times found in the schedule.
-    // If schedule has 1 time, and student has 1 domain -> match.
-    // If schedule has 2 times, and student has 2 domains... match sequentially.
-    // If mismatches, label "See Schedule Details".
-
     const scheduleTimes = student.schedule?.times || [];
     const domains = student.domains || [];
 
@@ -58,24 +44,21 @@ export default async function DashboardPage({ params }: { params: Promise<{ roll
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {domains.map((domain, index) => {
-                        // Try to map a time to this domain
-                        // This is heuristic-based because the source data didn't have explicit domain-time mapping, just a list of times in columns.
-                        // We'll trust the order: first time for first domain in the schedule columns, but here we just have 'domains' list.
-                        // We'll just grab the time at 'index' if available, otherwise 'Pending'
-
-                        // Actually the domains in `student.domains` might be sorted differently than the schedule columns.
-                        // But for this prototype, we will map sequentially.
-                        // IMPORTANT: Limit to available times. 
                         let timeSlot = undefined;
                         if (index < scheduleTimes.length) {
                             timeSlot = scheduleTimes[index];
                         }
+
+                        // Find config for this domain to get the Meet Link
+                        const domainConfig = allDomains.find(d => d.name === domain);
+                        const meetLink = domainConfig?.meetLink;
 
                         return (
                             <DomainCard
                                 key={index}
                                 domain={domain}
                                 timeSlot={timeSlot}
+                                meetLink={meetLink}
                             />
                         );
                     })}
